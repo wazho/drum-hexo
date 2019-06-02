@@ -4,16 +4,22 @@
 
 # [Theme - concise] Header
 menu:
-  Home: /
-  Lectures: /lectures
-  Products: /products
-  About: https://salmon.tw/
+  首頁: /
+  教材: /lectures
+  作品: /productions
+  關於: /about
+  主頁: https://salmon.tw/
 
 # [Theme - concise] Sidebar
 author:
   name: Ze-Hao Wang
   location: Taoyuan, Taiwan
   avatar_url: https://salmon.tw/sources/images/thumbnail.png
+  murmur: 初學菜鳥練習中
+
+# [Theme - concise] github comment 
+git_commit:
+  enable: false
 
 # [Theme - concise] Miscellaneous
 # favicon: /images/favicon.ico
@@ -33,39 +39,13 @@ root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
-# Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
-
-# Writing
-new_post_name: :title.md # File name of new posts
-default_layout: post
-titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
-filename_case: 0
-render_drafts: false
-post_asset_folder: false
-relative_link: false
-future: true
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace:
-  
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 3
   order_by: -date
   
 # Category & Tag
